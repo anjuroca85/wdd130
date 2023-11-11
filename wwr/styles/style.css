@@ -61,7 +61,8 @@ nav a:hover {
 
 .book, .join {
     background-color: #25A18E;
-    color: #004E64;
+    /* color: #004E64; */
+    color: #9FFFCB;
     text-decoration: none;
     font-size: 18px;
     padding: 15px 30px;
@@ -132,7 +133,7 @@ footer a{
 }
 
 footer a:hover{
-    color: #004E64;
+    color: #004E64;    
 }
 
 .logo{
@@ -206,7 +207,7 @@ main section img {
 .home-grid{
     display: grid;
     grid-template-columns: repeat(10, 1fr);
-}
+ }
 
 .card-img, .mountains {
     width: 100%;
@@ -226,6 +227,59 @@ main section img {
     grid-column: 8/10;
     grid-row: 2/3;
 }
+
+/* The following code is for the rivers-choice subwebsite */
+
+.river-grid{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+}
+.rivers-op1, .rivers-op2, .rivers-op3{
+    margin: 100px 0;
+    width: 100%;
+    height: auto;
+}
+
+.desc-1, .desc-2, .desc-3{
+    margin: 100px 0;
+    width: 100%;
+    height: auto;
+}
+.desc-1{
+    grid-column: 8/12;
+    width: 100%;    
+}
+
+.desc-2{
+    grid-column: 8/12;
+}
+
+.desc-3{
+    grid-column: 8/12;
+}
+
+.rivers-op1{
+    grid-column: 1/7;
+}
+
+.rivers-op2{
+    grid-column: 1/7;
+}
+
+.rivers-op3{
+    grid-column: 1/7;
+}
+
+.desc-1 p, .desc-2 p, .desc-3 p{
+    height: 280px;
+    overflow: scroll;
+    border: 1px solid #ccc;
+}
+
+.desc-1 h2, .desc-2 h2, .desc-3 h2{
+    text-align: center;
+}
+/* *{border: 2px solid red ;} */
 
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
