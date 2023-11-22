@@ -1,0 +1,115 @@
+/* if you are using any Google fonts change the font names below to your fonts. 
+Any spaces in your font name should be replaced with a +. 
+Fonts are separated by a & */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@300&family=Roboto+Slab:wght@700&display=swap');
+
+#content {
+    max-width: 1500px;
+    margin: 0 auto;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a{
+    text-align: center;
+    color: #da2c38;
+    text-decoration: none;
+    padding: 35px;
+}
+
+/* main section{
+    text-align: center;
+} */
+
+body {
+    background-color: #f4f0bb; 
+    font-family: "Montserrat Alternates", Verdana, sans-serif; /* Use Montserrat Alternates for text */
+    font-weight: 300; /* Use the 300 (Light) font weight */
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+/* *{
+    border: 2px solid blue;
+} */
+/* .home-grid{
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+ } */
+
+ .personal_pic{
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: 5fr;
+
+ }
+
+.personal_pic{
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: 5fr;
+ }
+img{
+    grid-column: 1/11;
+    
+    z-index: -1;
+}
+ /* h2{
+    grid-column: 4/6;
+    grid-row: 2/3;  
+    z-index: 1;
+ }
+
+ p{
+    grid-column: 3/7;
+    grid-row: 4/5;  
+    z-index: 1;
+ } */
+
+ .biography{
+    grid-column: 1/10;
+ }
+ .andres-img{
+    padding: 50px 50px;
+ }
+
+header {
+    display: grid;
+    grid-template-columns: 150px auto;
+    background-color: #226f54;
+}
+
+.logo{
+    width: 80px;
+}
+
+#logo_link{
+    padding-top: 5px;
+    justify-self: center;
+    align-self: center;
+}
+
+footer{
+    background-color: #226f54;
+    color: #da2c38;
+    padding: 25px 50px;
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+footer p {
+    font-size: 1.2em;
+} 
+
+footer p a:hover {
+    text-decoration: underline;
+}
+
+footer .social img{
+    padding-top: 15px;
+}
