@@ -40,7 +40,7 @@ body {
     grid-template-columns: repeat(10, 1fr);
  } */
 
- .personal_pic{
+ section .personal_pic{
     display: grid;
     grid-template-columns: repeat(10, 1fr);
     grid-template-rows: 5fr;
@@ -53,21 +53,26 @@ body {
     grid-template-rows: 5fr;
  }
 img{
-    grid-column: 1/11;
-    
+    grid-column: 2/11; 
+    grid-row: 2/3;   
     z-index: -1;
 }
- /* h2{
+
+ h2{
     grid-column: 4/6;
-    grid-row: 2/3;  
+    grid-row: 2/4;
+    padding-top: 325px; 
     z-index: 1;
+    width: 90%;
  }
 
  p{
-    grid-column: 3/7;
-    grid-row: 4/5;  
+    grid-column: 4/7;
+    grid-row: 2/5; 
+    padding-top: 380px; 
     z-index: 1;
- } */
+    color: #f4f0bb;
+ } 
 
  .biography{
     grid-column: 1/10;
