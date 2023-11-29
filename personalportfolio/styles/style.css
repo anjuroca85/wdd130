@@ -58,7 +58,7 @@ img{
     z-index: -1;
 }
 
- h2{
+ main section h2{
     grid-column: 4/6;
     grid-row: 2/4;
     padding-top: 325px; 
@@ -66,19 +66,26 @@ img{
     width: 90%;
  }
 
- p{
+ main section p{
     grid-column: 4/7;
     grid-row: 2/5; 
     padding-top: 380px; 
     z-index: 1;
-    color: #f4f0bb;
+
  } 
 
- .biography{
+ main section .biography{
     grid-column: 1/10;
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: 5fr;
  }
  .andres-img{
     padding: 50px 50px;
+ }
+ .andres-img2{
+    width: 300px;
+    height: auto;
  }
 
 header {
