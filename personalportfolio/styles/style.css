@@ -20,9 +20,6 @@ nav a{
     padding: 35px;
 }
 
-/* main section{
-    text-align: center;
-} */
 
 body {
     background-color: #f4f0bb; 
@@ -32,13 +29,6 @@ body {
     margin: 0;
     padding: 0;
 }
-/* *{
-    border: 2px solid blue;
-} */
-/* .home-grid{
-    display: grid;
-    grid-template-columns: repeat(10, 1fr);
- } */
 
  section .personal_pic{
     display: grid;
@@ -47,7 +37,7 @@ body {
 
  }
 
-.personal_pic{
+ .personal_pic{
     display: grid;
     grid-template-columns: repeat(10, 1fr);
     grid-template-rows: 5fr;
@@ -69,23 +59,41 @@ img{
  main section p{
     grid-column: 4/7;
     grid-row: 2/5; 
-    padding-top: 380px; 
+    padding-top: 380px;
     z-index: 1;
 
  } 
 
  main section .biography{
     grid-column: 1/10;
-    display: grid;
-    grid-template-columns: repeat(10, 1fr);
-    grid-template-rows: 5fr;
  }
+
+
  .andres-img{
     padding: 50px 50px;
  }
  .andres-img2{
     width: 300px;
     height: auto;
+    margin-left: 910px;
+ }
+
+ .biography h2{
+    margin-top: -700px;
+    margin-left: 300px;
+ }
+
+ .biography p{
+    width: 55%;
+    text-align:justify;
+    height: 250px;
+    overflow: scroll;
+    border: 1px solid #ccc;
+    
+ }
+
+ #biography_p{
+    padding: 0%;
  }
 
 header {
@@ -124,4 +132,11 @@ footer p a:hover {
 
 footer .social img{
     padding-top: 15px;
+}
+
+/* Add responsive styles for smaller screens */
+@media screen and (max-width: 600px) {
+    .home-grid {
+        grid-template-columns: 1fr;
+    }
 }
