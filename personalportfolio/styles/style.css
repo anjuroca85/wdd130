@@ -135,8 +135,47 @@ footer .social img{
 }
 
 /* Add responsive styles for smaller screens */
-@media screen and (max-width: 600px) {
-    .home-grid {
-        grid-template-columns: 1fr;
+@media only screen and (max-width: 600px) {
+    #content {
+        max-width: 100%; /* Adjust the max-width for smaller screens */
+    }
+
+    nav {
+        flex-direction: column; /* Stack navigation links vertically for smaller screens */
+        text-align: center;
+    }
+
+    nav a {
+        padding: 15px; /* Reduce padding for smaller screens */
+    }
+
+    body {
+        font-size: 18px; /* Adjust the font size for smaller screens */
+    }
+
+    section .personal_pic img,
+    main section h2,
+    main section p {
+        grid-column: span 10; /* Expand grid items to full width for smaller screens */
+    }
+
+    main section h2,
+    main section p {
+        padding-top: 50px; /* Adjust padding for smaller screens */
+    }
+
+    .biography h2 {
+        margin-top: -50px; /* Adjust margin for smaller screens */
+        margin-left: 10px; /* Adjust margin for smaller screens */
+    }
+
+    .andres-img2 {
+        margin-left: 0; /* Center the image for smaller screens */
+    }
+
+    .biography p {
+        width: 100%; /* Use full width for smaller screens */
+        margin-left: 10px; /* Adjust margin for smaller screens */
+        overflow: auto; /* Allow scrolling for smaller screens */
     }
 }
