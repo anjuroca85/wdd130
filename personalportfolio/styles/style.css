@@ -135,9 +135,9 @@ footer .social img{
 }
 /*experience page*/
 
-*{
+/* *{
     border: 2px solid blue;
-}
+} */
 .experience-grid{
     display: grid;
     grid-template-columns: repeat(10, 1fr);
