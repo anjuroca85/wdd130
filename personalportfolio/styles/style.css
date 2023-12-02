@@ -135,9 +135,9 @@ footer .social img{
 }
 /*experience page*/
 
-/* *{
+*{
     border: 2px solid blue;
-} */
+}
 .experience-grid{
     display: grid;
     grid-template-columns: repeat(10, 1fr);
@@ -155,7 +155,7 @@ footer .social img{
 .exp_seis{
     grid-column: 1/11;
     grid-row: 2/3;
-    height:750px;
+    height:450px;
 }
 
 main.experience-grid .exp_boat{
@@ -199,7 +199,8 @@ main.experience-grid .exp_seis img.andres-img_exp {
     grid-column: 8/12;
     grid-row: 1/11;
     margin-left: -100px;
-    width: 100%;
+    padding-top: 15%;
+    width: 140%;
     height: auto;
 }
 
