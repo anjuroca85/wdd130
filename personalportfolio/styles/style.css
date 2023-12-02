@@ -133,6 +133,106 @@ footer p a:hover {
 footer .social img{
     padding-top: 15px;
 }
+/*experience page*/
+
+/* *{
+    border: 2px solid blue;
+} */
+.experience-grid{
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    width: 100%;
+    height: 1600px;
+}
+
+.exp_boat{
+    grid-column: 1/11;
+    grid-row: 1/2;
+    height:750px;
+    padding: 5%;
+}
+
+.exp_seis{
+    grid-column: 1/11;
+    grid-row: 2/3;
+    height:750px;
+}
+
+main.experience-grid .exp_boat{
+    display: grid;
+    grid-template-columns: repeat(11, 1fr);
+    grid-template-rows: repeat(10, 1fr);
+}
+
+main.experience-grid .exp_boat img.andres-img_exp {
+    grid-column: 1/6;
+    grid-row: 1/11;
+    width: 80%;
+    height: auto;
+}
+
+main.experience-grid .exp_boat h2 {
+    grid-column: 8/11;
+    grid-row: 1/2;
+    width: 140%;
+    height: 50%;
+    padding: 0%;
+    text-align: center;
+}
+
+main.experience-grid .exp_boat p {
+    grid-column: 8/11;
+    grid-row: 2/11;
+    width: 140%;
+    height: 70%;
+    padding: 0%;
+}
+
+
+main.experience-grid .exp_seis {
+    display: grid;
+    grid-template-columns: repeat(11, 1fr);
+    grid-template-rows: repeat(10, 1fr);
+}
+
+main.experience-grid .exp_seis img.andres-img_exp {
+    grid-column: 8/12;
+    grid-row: 1/11;
+    margin-left: -100px;
+    width: 100%;
+    height: auto;
+}
+
+main.experience-grid .exp_seis h2 {
+    grid-column: 2/7;
+    grid-row: 1/2;
+    width: 100%; /* Adjusted to 100% for consistency */
+    height: auto; /* Adjusted to auto for flexibility */
+    text-align: center;
+    padding-top: 0%;
+}
+
+main.experience-grid .exp_seis p {
+    grid-column: 1/7;
+    grid-row: 2/11;
+    width: 100%; /* Adjusted to 100% for consistency */
+    height: auto; /* Adjusted to auto for flexibility */
+    padding: 0; /* Removed unnecessary percentage values */
+}
+
+main.experience-grid .exp_seis ul {
+    grid-column: 1/7; /* Adjust based on your layout */
+    grid-row: 2/11;  /* Adjust based on your layout */
+    width: 100%;     /* Adjust the width as needed */
+    padding-top: 8%;       /* Remove unnecessary padding */
+}
+
+main.experience-grid .exp_seis li {
+    width: 100%;     /* Adjust the width as needed */
+}
+
+
+
 /*The following code is for the slideshor component*/
 
 * {box-sizing:border-box}
